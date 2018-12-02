@@ -1,6 +1,7 @@
 #!/bin/bash
 
-files=(*.png)
+
+files=(*.png) #this selects every png file in the folder. If you want to select all files just delete the extension or change it as per your requirements
 for file in "${files[@]}"; do
 	echo "Cleaning $file"
 	echo " "
