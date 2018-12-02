@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files=(*)
+files=(*.png)
 for file in "${files[@]}"; do
 	echo "Cleaning $file"
 	echo " "
